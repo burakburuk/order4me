@@ -1,1 +1,1 @@
-export const toPrice = (price) => (!isNaN(price) ? price.toFixed(2) : null);
+export const toPrice = (price) => (!Number.isNaN(price) ? price.toFixed(2) : null);

@@ -1,5 +1,5 @@
-import { MenuGroupRecord, MenuItemRecord } from './types';
 import { List } from 'immutable';
+import { MenuGroupRecord, MenuItemRecord } from './types';
 
 const californiaRolls = new MenuItemRecord({
     id: '1',
