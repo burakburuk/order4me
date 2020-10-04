@@ -7,10 +7,10 @@
     "license": "MIT",
     "scripts": {
         "start": "rimraf build & yarn webpack-dev",
-        "webpack-dev": "webpack-dev-server --config config/webpack.dev.js --open",
+        "webpack-dev": "webpack-dev-server --config config/webpack.dev.js --open 'google chrome'",
         "build": "rimraf build & yarn webpack --config config/webpack.prod.js",
-        "build-image": "docker build . -t feedback2me",
-        "run-image": "docker run -p 8000:80 feedback2me",
+        "build-image": "docker build . -t order4me",
+        "run-image": "docker run -p 8000:80 order4me",
         "lint": "eslint src/",
         "test": "jest -c jest.config.js",
         "test-watch": "jest -c jest.config.js --watch",
