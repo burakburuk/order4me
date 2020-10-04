@@ -1,6 +1,6 @@
 # README
 
-Feedback2me UI
+Order4me UI
 
 GUI for the application.
 
@@ -16,7 +16,7 @@ GUI for the application.
 
 ## Run ui-application in development mode
 
-Start application in development mode: From the "ui" folder run following command. Then it will automatically start the project from 9000 port and it will open default browser. It will also start listening changes in the code and reload changed files on save.
+Start application in development mode: From the "ui" folder run following command. Then it will automatically start the project from 8000 port and it will open default browser. It will also start listening changes in the code and reload changed files on save.
 
 `yarn start`
 
