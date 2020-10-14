@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+    server:
+        restart: always
+        build: ./server
+        expose:
+            - '8080'
+        ports:
+            - '8080:8080'
+        networks:
+            - backend
+
+    gui:
+        restart: always
+        build: ./ui
+        ports:
+            - '8000:80'
+        depends_on:
+            - server
+        networks:
+            - frontend
+            - backend
+
+networks:
+    frontend:
+    backend:
