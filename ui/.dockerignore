@@ -1,0 +1,12 @@
+node_modules
+build
+
+Dockerfile
+.dockerignore
+.prettierrc
+
+README.md
+changelog.md
+
+.git
+yarn-error.log

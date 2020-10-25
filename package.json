@@ -1,0 +1,8 @@
+{
+  "name": "order4me",
+  "version": "0.0.1",
+  "description": "Ordering application",
+  "main": "index.js",
+  "author": "Burak Buruk",
+  "license": "MIT"
+}
